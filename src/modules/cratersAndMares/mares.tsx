@@ -51,6 +51,7 @@ async function fetchMares(map: Map) {
 
     const mareLayer = new VectorLayer({
       source: mareSource,
+      properties: { id: "mares" },
       maxZoom: 6,
       zIndex: 10,
       style: (feature) =>
