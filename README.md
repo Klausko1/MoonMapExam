@@ -1,6 +1,6 @@
 # Lunar Surface Map (exam)
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen)](https://klausko1.github.io/kws2100-exam-ImreAbelvik/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen)](https://klausko1.github.io/MoonMapExam/)
 
 This map is meant as an educational resource for people who want to learn about the lunar surface. It contains locational data about the different lunar landing sites and their purpose, aswell as basic information about varous craters with links to learn more about them. It also contains some basic information about mare's and the difference between the near and far side of the moon.
 
