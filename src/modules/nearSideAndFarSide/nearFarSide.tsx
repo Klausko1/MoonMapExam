@@ -57,7 +57,7 @@ const NearFarSidePlotter: React.FC<NearFarSidePlotterProps> = ({
     const fetchNearFarSide = async () => {
       try {
         const response = await fetch(
-          "https://eksamen2024-4ca230bb945c.herokuapp.com/moon-sides",
+          "https://moonmapexam-6c2201712d34.herokuapp.com/moon-sides",
         );
         const data: NearFarSideData[] = await response.json();
         console.log("Data fetched:", data);
