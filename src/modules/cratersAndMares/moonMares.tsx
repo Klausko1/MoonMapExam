@@ -15,7 +15,7 @@ interface MaresProps {
 async function fetchMares(map: Map) {
   try {
     const response = await fetch(
-      "https://eksamen2024-4ca230bb945c.herokuapp.com/moon-mares",
+      "https://moonmapexam-6c2201712d34.herokuapp.com/moon-mares",
     );
     if (!response.ok) throw new Error("Error fetching data from the api");
     const data = await response.json();
