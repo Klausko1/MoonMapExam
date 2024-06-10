@@ -40,7 +40,7 @@ export function setupLandingClick(map: Map) {
       if (label) {
         try {
           const response = await fetch(
-            "https://eksamen2024-4ca230bb945c.herokuapp.com/moon-landings",
+            "https://moonmapexam-6c2201712d34.herokuapp.com/moon-landings",
           );
           const data = await response.json();
           const landing = data.find(
