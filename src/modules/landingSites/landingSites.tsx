@@ -34,7 +34,7 @@ const getIconPath = (programName: string) => {
 const fetchLandingSites = async (map: Map, mission: string) => {
   try {
     const response = await fetch(
-      "https://eksamen2024-4ca230bb945c.herokuapp.com/moon-landings",
+      "https://moonmapexam-6c2201712d34.herokuapp.com/moon-landings",
     );
     if (!response.ok) throw new Error("Error fetching the requested data.");
 
