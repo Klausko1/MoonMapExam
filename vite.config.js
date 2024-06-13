@@ -1,4 +1,4 @@
-// vite.config.js
+// this is vite.config.js
 export default {
   base: "/MoonMapExam/",
 };
